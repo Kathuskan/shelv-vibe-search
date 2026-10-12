@@ -1,0 +1,17 @@
+.DS_Store
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+data/
+artifacts/
+results/
+.cache/
+*.npy
+*.npz
+*.safetensors
+*.bin
+*.zip

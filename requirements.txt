@@ -1,0 +1,3 @@
+# Candidate environment; record installed versions in each built index.
+numpy>=1.26,<3
+sentence-transformers>=5,<6

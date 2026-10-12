@@ -1,0 +1,23 @@
+[
+  {"id":"user-en-01","split":"dev","query":"I need a book read peacefully","language_filter":null,"query_language":"English","intent":"vibe","origin":"user_provided"},
+  {"id":"dev-en-01","split":"dev","query":"A comforting story about friendship and starting over","language_filter":null,"query_language":"English","intent":"vibe"},
+  {"id":"dev-ta-01","split":"dev","query":"நட்பையும் நம்பிக்கையையும் பற்றிய மனதுக்கு ஆறுதல் தரும் கதை","language_filter":null,"query_language":"Tamil","intent":"vibe"},
+  {"id":"dev-en-02","split":"dev","query":"A slow reflective story about loneliness and the meaning of life","language_filter":null,"query_language":"English","intent":"vibe"},
+  {"id":"dev-ta-02","split":"dev","query":"தனிமையையும் வாழ்க்கையின் அர்த்தத்தையும் பற்றிய அமைதியான கதை","language_filter":null,"query_language":"Tamil","intent":"vibe"},
+  {"id":"dev-en-03","split":"dev","query":"A tense story about betrayal and revenge","language_filter":null,"query_language":"English","intent":"vibe"},
+  {"id":"dev-ta-03","split":"dev","query":"துரோகத்தையும் பழிவாங்குவதையும் பற்றிய விறுவிறுப்பான கதை","language_filter":null,"query_language":"Tamil","intent":"vibe"},
+  {"id":"dev-en-04","split":"dev","query":"An inspiring account of a woman overcoming social barriers","language_filter":"Tamil","query_language":"English","intent":"vibe"},
+  {"id":"dev-ta-04","split":"dev","query":"சமூகத் தடைகளைத் தாண்டி முன்னேறும் பெண்ணின் ஊக்கமளிக்கும் வாழ்க்கைக் கதை","language_filter":"Tamil","query_language":"Tamil","intent":"vibe"},
+  {"id":"dev-en-05","split":"dev","query":"A comforting story without violence","language_filter":null,"query_language":"English","intent":"constraint"},
+  {"id":"dev-ta-05","split":"dev","query":"வன்முறை இல்லாத மனதுக்கு ஆறுதல் தரும் கதை","language_filter":null,"query_language":"Tamil","intent":"constraint"},
+  {"id":"dev-en-06","split":"dev","query":"How to repair a broken dishwasher pump","language_filter":null,"query_language":"English","intent":"out_of_domain"},
+  {"id":"dev-ta-06","split":"dev","query":"பழுதான பாத்திரம் கழுவும் இயந்திரத்தின் பம்பை சரிசெய்வது எப்படி","language_filter":null,"query_language":"Tamil","intent":"out_of_domain"},
+  {"id":"test-en-01","split":"test","query":"A bittersweet story about returning home and childhood memories","language_filter":null,"query_language":"English","intent":"vibe"},
+  {"id":"test-ta-01","split":"test","query":"சொந்த ஊருக்குத் திரும்புவதையும் குழந்தைப் பருவ நினைவுகளையும் பற்றிய இனிமையும் சோகமும் கலந்த கதை","language_filter":null,"query_language":"Tamil","intent":"vibe"},
+  {"id":"test-en-02","split":"test","query":"A funny lighthearted book that helps me unwind","language_filter":null,"query_language":"English","intent":"vibe"},
+  {"id":"test-ta-02","split":"test","query":"மன அழுத்தத்தைக் குறைக்கும் நகைச்சுவையான இலகுவான புத்தகம்","language_filter":null,"query_language":"Tamil","intent":"vibe"},
+  {"id":"test-en-03","split":"test","query":"A moving story about displacement and belonging","language_filter":"Tamil","query_language":"English","intent":"vibe"},
+  {"id":"test-ta-03","split":"test","query":"இடம்பெயர்வையும் சொந்த மண்ணின் ஏக்கத்தையும் பற்றிய மனதைத் தொடும் கதை","language_filter":"Tamil","query_language":"Tamil","intent":"vibe"},
+  {"id":"test-en-04","split":"test","query":"A gentle love story with a happy ending","language_filter":null,"query_language":"English","intent":"constraint"},
+  {"id":"test-ta-04","split":"test","query":"மகிழ்ச்சியான முடிவைக் கொண்ட மென்மையான காதல் கதை","language_filter":null,"query_language":"Tamil","intent":"constraint"}
+]
