@@ -78,18 +78,3 @@ python vibe_search.py search "I need a book read peacefully" --k 5
 ```
 
 Models embed title, subjects, and description; authors are excluded because source metadata mixes author/category values. Dense candidates use normalized vectors and exact dot-product ranking (cosine similarity), with a 512-token limit. E5 uses query/passage prefixes; BGE-M3 does not. The CLI reloads the model per invocation; a future Shelv service would keep it loaded.
-
-## Push to a new GitHub repository
-
-Create an empty repository named `shelv-vibe-search` on GitHub (no generated README, license, or gitignore). In this directory:
-
-```sh
-git init -b main
-git add .
-git status --short
-git commit -m "Initialize Shelv vibe search project"
-git remote add origin https://github.com/YOUR_USERNAME/shelv-vibe-search.git
-git push -u origin main
-```
-
-Replace YOUR_USERNAME, or use the exact remote URL GitHub provides. You must authenticate to GitHub for the push. These commands follow [GitHub's import instructions](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github). This export does not create a remote, choose repository visibility, or publish data.
